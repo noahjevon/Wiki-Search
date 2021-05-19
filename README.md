@@ -1,6 +1,6 @@
 # Wiki Search for Chrome
 
-Wiki Search allows you to viw the first lines of a wikipedia page by highlighting text within a tab on Google Chrome
+Wiki Search allows you to viw the first lines of a wikipedia page by highlighting text within a tab on Google Chrome.
 
 ## Description
 
