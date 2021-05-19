@@ -17,6 +17,16 @@ document.getElementById("button").addEventListener("click", searchWiki);
 //     })
 // }
 
+// const searchWiki = async search => {
+//   const response = await fetch(`https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro&explaintext&redirects=1&titles=${search}`)
+//   if(!response.ok) return false;
+//   return await response.json();
+// }
+
+// searchWiki("banana").then(data => {
+//   document.body.textContent = data.extract;
+// });
+
 function searchWiki() {
     const searchWiki = async search => {
         const response = await fetch(`https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro&explaintext&redirects=1&titles=${search}`)

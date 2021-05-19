@@ -12,6 +12,9 @@ body {
     width: 275px;
     background-color: white;
     box-shadow: 5px 10px #038292;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .button {
@@ -33,6 +36,10 @@ h1 {
 #contents {
     font-size: medium;
     align-items: center;
+    white-space: pre-line;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
 
 
