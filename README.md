@@ -38,8 +38,6 @@ Noah Jevon
 
 ## Version History
 
-* 0.2
-    * Optimised output of selected text to prevent overflow
 * 0.1
     * Initial Release
 
