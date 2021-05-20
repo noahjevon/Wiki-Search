@@ -7,7 +7,8 @@ chrome.tabs.executeScript( {
     selected_text = selection[0]; // Set variable 'selected_text' to selected string
 });
 
-document.getElementById("button").addEventListener("click", searchWiki); // Call searchWiki function when button is pressed
+document.getElementById("button").addEventListener("click", searchWiki); // Call searchWiki function when button is pressed to display wiki summary
+document.getElementById("wiki").addEventListener("click", loadWiki); // Call loadWIki function when button is pressed to go to wiki page
 
 function searchWiki() {
     const searchWiki = async search => {
@@ -21,5 +22,11 @@ function searchWiki() {
                                               .replace(/\\"/g, ''); // Replace italics with white space (Will need to figure out how to add italics later)
 
           document.getElementById("contents").innerHTML = formattedJSONString; // Update the "contents" div with the formatted JSON string
+          document.getElementById("wiki").style.display = "";
       });
+}
+
+function loadWiki() { // Open the relevant wikipedia page in a new tab
+  chrome.tabs.create({'url': 'https://en.wikipedia.org/wiki/' + selected_text}, function(tab) {
+  });
 }

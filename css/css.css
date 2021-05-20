@@ -50,8 +50,17 @@ h1 {
     overflow-y: scroll;
 }
 
-  #contents::-webkit-scrollbar {
+#contents::-webkit-scrollbar {
     display: none;
+}
+
+#wiki {
+    font-style: italic;
+    position:absolute; 
+    margin-left:-50px;
+    left:50%;
+    width:100px;
+    bottom:15px;
 }
 
 
