@@ -1,6 +1,6 @@
 # Wiki Search for Chrome
 
-Wiki Search displays a short 300 character summary of a wikipedia page by highlighting text within a tab on Google Chrome.
+Wiki Search displays a short 300 character summary of a wikipedia page selected from highlighted text within a Google Chrome tab.
 
 ## Description
 
