@@ -37,7 +37,8 @@ the selected word. If this is correct, hit 'Search' and you will see a short sum
 Noah Jevon
 
 ## Version History
-
+* 1.0
+    * Stable Release
 * 0.1
     * Initial Release
 
