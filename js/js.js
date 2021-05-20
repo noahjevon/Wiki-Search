@@ -10,9 +10,11 @@ chrome.tabs.executeScript( {
 document.getElementById("button").addEventListener("click", searchWiki); // Call searchWiki function when button is pressed to display wiki summary
 document.getElementById("wiki").addEventListener("click", loadWiki); // Call loadWIki function when button is pressed to go to wiki page
 
+//https://stackoverflow.com/questions/8555320/is-there-a-wikipedia-api-just-for-retrieve-content-summary
+ 
 function searchWiki() {
     const searchWiki = async search => {
-        const response = await fetch(`https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro&explaintext&redirects=1&titles=${search}`) // Call API with selected word
+        const response = await fetch(`https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exchars=300&explaintext&redirects=1&titles=${search}`) // Call API with selected word
         return await response.json(); // Return API response
       }
       
@@ -23,6 +25,7 @@ function searchWiki() {
 
           document.getElementById("contents").innerHTML = formattedJSONString + '<br> <br>'; // Update the "contents" div with the formatted JSON string
           document.getElementById("wiki").style.display = ""; // Show 'read more' button
+          document.getElementById("button").style.display = 'none'; // Show 'read more' button
       });
 }
 

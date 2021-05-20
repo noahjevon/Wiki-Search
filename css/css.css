@@ -38,7 +38,6 @@ h1 {
     text-align: center;
     white-space: normal;
     overflow: visible;
-    text-overflow: ellipsis;
 }
 
 #contents {
@@ -63,12 +62,11 @@ h1 {
 }
 
 #wiki {
-    font-style: italic;
-    position:absolute; 
-    margin-left:-50px;
-    left:50%;
-    width:100px;
-    bottom:15px;
+    position: absolute; 
+    margin-left: -50px;
+    left: 50%;
+    width: 100px;
+    bottom: 40px;
 }
 
 
