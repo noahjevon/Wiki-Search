@@ -22,6 +22,11 @@ body {
     padding: 5px;
 }
 
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
 h1 {
     padding-top: 2px;
     text-align: center;
@@ -31,6 +36,9 @@ h1 {
 #selected {
     font-size: medium;
     text-align: center;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: ellipsis;
 }
 
 #contents {

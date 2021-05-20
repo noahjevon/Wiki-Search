@@ -21,8 +21,8 @@ function searchWiki() {
         var formattedJSONString = JSONString.replace(/\\n/g, '<br>') // Replace new lines with actual new lines
                                               .replace(/\\"/g, ''); // Replace italics with white space (Will need to figure out how to add italics later)
 
-          document.getElementById("contents").innerHTML = formattedJSONString; // Update the "contents" div with the formatted JSON string
-          document.getElementById("wiki").style.display = "";
+          document.getElementById("contents").innerHTML = formattedJSONString + '<br> <br>'; // Update the "contents" div with the formatted JSON string
+          document.getElementById("wiki").style.display = ""; // Show 'read more' button
       });
 }
 
