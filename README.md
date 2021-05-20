@@ -47,5 +47,5 @@ To-Do
 
 ## Acknowledgments
 
-To-Do
-* To-Do
+Fade effect from StackOverflow user Fabrizio Calderan loves trees
+* https://stackoverflow.com/questions/22666063/how-to-fade-the-edge-of-a-div-with-just-css
