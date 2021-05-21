@@ -8,7 +8,7 @@ Wiki Search displays a short 500 character summary of a wikipedia page selected 
 
 ## Description
 
-Built using HTML, CSS, JavaScript and the Wikipedia API. Search and retrieve a short 500 character summary of any word or phrase you're not sure of. 
+Built using HTML, CSS, JavaScript and the MediaWiki API. Search and retrieve a short 500 character summary of any word or phrase you're not sure of. 
 Future support may include the ability to search on more pages than just Wikipedia, such as dictionaries or thesauruses.
 
 
@@ -52,3 +52,6 @@ Apache 2.0
 
 Fade effect from StackOverflow user Fabrizio Calderan loves trees
 * https://stackoverflow.com/questions/22666063/how-to-fade-the-edge-of-a-div-with-just-css
+
+Wikipedia extracts from MediaWiki API
+* https://en.wikipedia.org/w/api.php?action=help&modules=query%2Bextracts
