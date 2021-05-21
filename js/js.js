@@ -19,7 +19,7 @@ function searchWiki() {
       }
       
       searchWiki(selected_text).then(data => {
-        var JSONString = JSON.stringify(Object.values(data.query.pages)[0].extract); // Stringify the JSON response from API
+        var JSONString = JSON.stringify(Object.values(data.query.pages)[0].extract); // Get extract response as string
         var formattedJSONString = JSONString.replace(/\\n/g, '<br>') // Replace new lines with actual new lines
                                               .replace(/\\"/g, ''); // Replace italics with white space (Will need to figure out how to add italics later)
 
