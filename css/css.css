@@ -1,73 +1,70 @@
 body {
-    height: 415px;
-    width: 300px;
-    background-color: #00b2ca;
+  height: 415px;
+  width: 300px;
+  background-color: #00b2ca;
 }
 
 .container {
-    text-align: center;
-    border-radius: 25px;
-    padding: 20px;
-    height: 350px;
-    width: 275px;
-    background-color: white;
-    box-shadow: 5px 10px #038292;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  height: 350px;
+  width: 275px;
+  background-color: white;
+  box-shadow: 5px 10px #038292;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .button {
-    text-align: center;
-    padding: 0px;
+  text-align: center;
+  padding: 0px;
 }
 
 .btn:focus {
-    outline: none;
-    box-shadow: none;
-  }
+  outline: none;
+  box-shadow: none;
+}
 
 h1 {
-    padding-top: 2px;
-    text-align: center;
-    color: white;
+  padding-top: 2px;
+  text-align: center;
+  color: white;
 }
 
 #selected {
-    font-size: medium;
-    text-align: center;
-    white-space: normal;
-    overflow: visible;
+  font-size: medium;
+  text-align: center;
+  white-space: normal;
+  overflow: visible;
 }
 
 #contents {
-    font-size: medium;
-    height: 350px;
-    width: 250px;
-    position: relative;
-    width: 100%;
-    text-align: center;
-    line-height: 1.5em;
-    height: 15em;
-    white-space: normal;
-    overflow: scroll;
-    text-overflow: ellipsis;
-    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
-    mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
-    overflow-y: scroll;
+  font-size: medium;
+  height: 350px;
+  width: 250px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  line-height: 1.5em;
+  height: 15em;
+  white-space: normal;
+  overflow: scroll;
+  text-overflow: ellipsis;
+  -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  overflow-y: scroll;
 }
 
 #contents::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 #wiki {
-    position: absolute; 
-    margin-left: -50px;
-    left: 50%;
-    width: 100px;
-    bottom: 20px;
+  position: absolute;
+  margin-left: -50px;
+  left: 50%;
+  width: 100px;
+  bottom: 20px;
 }
-
-
-
