@@ -42,7 +42,7 @@ Noah Jevon
 
 ## License
 
-To-Do
+Apache 2.0
 
 ## Acknowledgments
 
