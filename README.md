@@ -1,20 +1,18 @@
 # Wiki Search for Chrome
 
-Wiki Search displays a short 300 character summary of a wikipedia page selected from highlighted text within a Google Chrome tab.
+Wiki Search displays a short 500 character summary of a wikipedia page selected from highlighted text within a Google Chrome tab.
 
 ## Description
 
-Built using HTML, CSS, JavaScript and the Wikipedia API. Search and retrieve a short 5-6 line long summary of any word or phrase you're not sure of! Future support
-may include the ability to search on more pages than just Wikipedia, such as dictionaries or thesauruses.
+Built using HTML, CSS, JavaScript and the Wikipedia API. Search and retrieve a short 500 character summary of any word or phrase you're not sure of. 
+Future support may include the ability to search on more pages than just Wikipedia, such as dictionaries or thesauruses.
 
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
+* Google Chrome
 
 ### Installing
 
@@ -44,7 +42,7 @@ Noah Jevon
 
 ## License
 
-To-Do
+Apache 2.0
 
 ## Acknowledgments
 
