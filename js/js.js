@@ -25,7 +25,7 @@ function searchWiki() {
 
           document.getElementById("contents").innerHTML = formattedJSONString + '<br> <br>'; // Update the "contents" div with the formatted JSON string
           document.getElementById("wiki").style.display = ""; // Show 'read more' button
-          document.getElementById("button").style.display = 'none'; // Show 'read more' button
+          document.getElementById("button").style.display = 'none'; // Hide 'Search' button
       });
 }
 
