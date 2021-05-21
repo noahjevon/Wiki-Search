@@ -20,12 +20,17 @@ function searchWiki() {
       
       searchWiki(selected_text).then(data => {
         var JSONString = JSON.stringify(Object.values(data.query.pages)[0].extract); // Get extract response as string
-        var formattedJSONString = JSONString.replace(/\\n/g, '<br>') // Replace new lines with actual new lines
-                                              .replace(/\\"/g, ''); // Replace italics with white space (Will need to figure out how to add italics later)
 
+        if (JSON.stringify(Object.values(data.query.pages)[0].missing)) {
+          document.getElementById("contents").innerHTML = "No results :( <br> Please try again.";
+        } else {
+          var formattedJSONString = JSONString.replace(/\\n/g, '<br>') // Replace new lines with actual new lines
+          .replace(/\\"/g, ''); // Replace italics with white space (Will need to figure out how to add italics later)
+          
           document.getElementById("contents").innerHTML = formattedJSONString + '<br> <br>'; // Update the "contents" div with the formatted JSON string
           document.getElementById("wiki").style.display = ""; // Show 'read more' button
-          document.getElementById("button").style.display = 'none'; // Hide 'Search' button
+        }
+        document.getElementById("button").style.display = 'none'; // Hide 'Search' button
       });
 }
 
