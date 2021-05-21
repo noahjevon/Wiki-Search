@@ -4,7 +4,7 @@ Wiki Search displays a short 500 character summary of a wikipedia page selected 
 
 ## Description
 
-Built using HTML, CSS, JavaScript and the Wikipedia API. Search and retrieve a short 500 character summary of any word or phrase you're not sure of! 
+Built using HTML, CSS, JavaScript and the Wikipedia API. Search and retrieve a short 500 character summary of any word or phrase you're not sure of. 
 Future support may include the ability to search on more pages than just Wikipedia, such as dictionaries or thesauruses.
 
 
