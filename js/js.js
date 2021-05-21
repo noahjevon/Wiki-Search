@@ -14,7 +14,7 @@ document.getElementById("wiki").addEventListener("click", loadWiki); // Call loa
  
 function searchWiki() {
     const searchWiki = async search => {
-        const response = await fetch(`https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exchars=300&explaintext&redirects=1&titles=${search}`) // Call API with selected word
+        const response = await fetch(`https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exchars=500&explaintext&redirects=1&titles=${search}`) // Call API with selected word
         return await response.json(); // Return API response
       }
       
