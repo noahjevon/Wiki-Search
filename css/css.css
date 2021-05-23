@@ -1,7 +1,7 @@
 body {
   height: 415px;
   width: 300px;
-  background-color: #00b2ca;
+  background-color: white;
 }
 
 .container {
@@ -11,10 +11,17 @@ body {
   height: 350px;
   width: 275px;
   background-color: white;
-  box-shadow: 5px 10px #038292;
+  box-shadow: 5px 10px #bebebe;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .button {
