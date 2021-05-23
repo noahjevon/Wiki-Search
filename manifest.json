@@ -5,6 +5,8 @@
   "background": {
       "scripts": ["js/js.js"]
   },
+  "icons": { "16": "images/favicon-16x16.png",
+    "32": "images/favicon-32x32.png"},
   "permissions": [
     "storage",
     "activeTab",
