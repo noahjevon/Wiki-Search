@@ -11,7 +11,7 @@ body {
   height: 350px;
   width: 275px;
   background-color: #525252;
-  box-shadow: 5px 10px #414141;
+  /* box-shadow: 5px 10px #414141; */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -36,7 +36,8 @@ body {
 
 .btn-dark {
   color: #a9a9a9;
-  background-color: #313131;
+  background-color: #414141;
+  outline: #414141;
 }
 
 .btn-dark-outline {
@@ -51,7 +52,7 @@ h1 {
 
 #selected {
   font-size: medium;
-  color: #a9a9a9;
+  color: #ededed;
   text-align: center;
   white-space: normal;
   overflow: visible;
@@ -59,7 +60,7 @@ h1 {
 
 #contents {
   font-size: medium;
-  color: #a9a9a9;
+  color: #ededed;
   height: 350px;
   width: 250px;
   position: relative;
