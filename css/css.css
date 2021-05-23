@@ -1,7 +1,7 @@
 body {
   height: 415px;
   width: 300px;
-  background-color: white;
+  background-color: #313131;
 }
 
 .container {
@@ -10,10 +10,8 @@ body {
   padding: 20px;
   height: 350px;
   width: 275px;
-  background-color: white;
-  border-style: solid;
-  border-width: thin;
-  box-shadow: 5px 10px #bebebe;
+  background-color: #525252;
+  box-shadow: 5px 10px #414141;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -36,6 +34,15 @@ body {
   box-shadow: none;
 }
 
+.btn-dark {
+  color: #a9a9a9;
+  background-color: #313131;
+}
+
+.btn-dark-outline {
+  color: #00adb5;
+}
+
 h1 {
   padding-top: 2px;
   text-align: center;
@@ -44,6 +51,7 @@ h1 {
 
 #selected {
   font-size: medium;
+  color: #a9a9a9;
   text-align: center;
   white-space: normal;
   overflow: visible;
@@ -51,6 +59,7 @@ h1 {
 
 #contents {
   font-size: medium;
+  color: #a9a9a9;
   height: 350px;
   width: 250px;
   position: relative;
