@@ -3,7 +3,7 @@
 Wiki Search displays a short 500 character summary of a wikipedia page selected from highlighted text within a Google Chrome tab.
 
 <p align="center">
-  <img src="https://github.com/noahjevon/Wiki-Search/blob/master/images/description_screnshot_1.PNG">
+  <img src="https://github.com/noahjevon/Wiki-Search/blob/master/images/description_screnshot_2.PNG">
 </p>
 
 ## Description
