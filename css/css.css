@@ -11,6 +11,8 @@ body {
   height: 350px;
   width: 275px;
   background-color: white;
+  border-style: solid;
+  border-width: thin;
   box-shadow: 5px 10px #bebebe;
   white-space: nowrap;
   overflow: hidden;
