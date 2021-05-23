@@ -31,7 +31,7 @@ Future support may include the ability to search on more pages than just Wikiped
 ### Using the Plugin
 
 Highlight any word or phrase from your current Chrome tab, then click the plugin icon from the top right of a Google Chrome window. From here, you will be able to see
-the selected word. If this is correct, hit 'Search' and you will see a short summary of the Wikipedia page relating to the word you highlighted.
+the selected word and a short 500 character summary of the Wikipedia page relating to the word you highlighted.
 
 
 ## Authors
