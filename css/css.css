@@ -27,17 +27,18 @@ body {
 .button {
   text-align: center;
   padding: 0px;
+  outline: none !important;
 }
 
 .btn:focus {
-  outline: none;
+  outline: none !important;
   box-shadow: none;
 }
 
 .btn-dark {
-  color: #a9a9a9;
-  background-color: #414141;
-  outline: #414141;
+  color: #ededed;
+  background-color: #313131;
+  outline: none;
 }
 
 .btn-dark-outline {
