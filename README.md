@@ -39,6 +39,12 @@ the selected word and a short 500 character summary of the Wikipedia page relati
 Noah Jevon
 
 ## Version History
+* 2.0
+    * Added dark mode
+    * Removed the need to click 'search' to see wikipedia summary
+    * Set summary to 500 characters
+    * Added ability to display summaries for words with multiple meanings
+    * Added ability to open the relavent wikipedia page if more information is required
 * 1.0
     * Stable Release
 * 0.1
