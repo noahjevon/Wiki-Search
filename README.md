@@ -20,7 +20,7 @@ Future support may include the ability to search on more pages than just Wikiped
 
 ### Installing
 
-* Navigate to the Chrome Webstore page here https://chrome.google.com/webstore/detail/wiki-search/ghjonlncpbhmempllopnklecjlmpgefl?hl=en&authuser=0
+* Navigate to the Chrome Webstore page [here] (https://chrome.google.com/webstore/detail/wiki-search/ghjonlncpbhmempllopnklecjlmpgefl?hl=en&authuser=0)
 * Click 'Add to Chrome'
 * Click the puzzle piece icon on the top right of Chrome
 * Click the pin icon next to the Wiki Search Extension
