@@ -20,25 +20,23 @@ Future support may include the ability to search on more pages than just Wikiped
 
 ### Installing
 
-* Download individual files to a new directory
-* Open Google Chrome
-* Navigate to chrome://extensions/
-* Select Developer Mode from the top right 
-* Select Load Unpacked Extension
-* Select the directory containing the plugin files
-
+* Navigate to the Chrome Webstore page here https://chrome.google.com/webstore/detail/wiki-search/ghjonlncpbhmempllopnklecjlmpgefl?hl=en&authuser=0
+* Click 'Add to Chrome'
+* Click the puzzle piece icon on the top right of Chrome
+* Click the pin icon next to the Wiki Search Extension
 
 ### Using the Plugin
 
-Highlight any word or phrase from your current Chrome tab, then click the plugin icon from the top right of a Google Chrome window. From here, you will be able to see
+Highlight any word or phrase from your current Chrome tab, then click the Wiki Search icon from the top right of a Google Chrome window. From here, you will be able to see
 the selected word and a short 500 character summary of the Wikipedia page relating to the word you highlighted.
-
 
 ## Authors
 
 Noah Jevon
 
 ## Version History
+* 2.1
+    * Chrome Webstore release 
 * 2.0
     * Added dark mode
     * Removed the need to click 'search' to see wikipedia summary
